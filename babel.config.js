@@ -4,10 +4,3 @@ module.exports = function(api) {
     presets: ['babel-preset-expo'],
   };
 };
-// next.config.js
-module.exports = {
-  future: {
-    webpack5: true,
-  },
-  target: 'serverless'
-}
